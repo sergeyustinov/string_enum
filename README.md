@@ -1,4 +1,4 @@
-# StringEnum
+# StringEnumerate
 
 Gem provide ability to use enum of active record with string field at DB and store available values at config(yml file)
 
@@ -9,14 +9,14 @@ Gem provide ability to use enum of active record with string field at DB and sto
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'string_enum'
+gem 'string_enumerate'
 ```
 
 And then execute:
 
     $ bundle
 
-    $ rails g string_enum:install
+    $ rails g string_enumerate:install
 
 ## Usage
 
@@ -40,7 +40,7 @@ post:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/string_enum. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/string_enumerate. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 

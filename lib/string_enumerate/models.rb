@@ -2,7 +2,7 @@
 
 require 'active_model'
 
-module StringEnum
+module StringEnumerate
   module Models
     extend ActiveSupport::Concern
  

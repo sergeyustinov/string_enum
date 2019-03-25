@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "string_enum/version"
+require "string_enumerate/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "string_enum"
-  spec.version       = StringEnum::VERSION
+  spec.name          = "string_enumerate"
+  spec.version       = StringEnumerate::VERSION
   spec.authors       = ["Sergey U"]
   spec.email         = ["se.ustinov@gmail.com"]
 
   spec.summary       = 'String field for ActiveRecord::Enum'
   spec.description   = 'Gem provide ability to use enum of active record with string field at postgreSQL and store available values at config(yml file)'
-  spec.homepage      = 'https://github.com/sergeyustinov/string_enum'
+  spec.homepage      = 'https://github.com/sergeyustinov/string_enumerate'
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
