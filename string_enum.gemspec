@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'String field for ActiveRecord::Enum'
   spec.description   = 'Gem provide ability to use enum of active record with string field at postgreSQL and store available values at config(yml file)'
-  spec.homepage      = 'http://itspark.pro'
+  spec.homepage      = 'https://github.com/sergeyustinov/string_enum'
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
